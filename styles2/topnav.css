@@ -1,12 +1,15 @@
+body {
+    margin: 0px;
+}
+
 .top-nav-wrapper {
     height: 30px;
     background-color: #000;
     /* Flexbox container */
     display: flex;
     align-items: center;
-    padding: 20px 10px;
+    padding: 25px 15px;
 }
-
 
 .top-nav-wrapper > .img-wrapper svg {
     text-align: right;
@@ -32,4 +35,19 @@
     background-color: #000;
     font-size: 1.1em;
     font-weight: 600;
+    padding: 0px 0px 0px 5px
+}
+
+.top-nav-wrapper > .spark {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 4px 25px;
+}
+
+.spark select {
+    color: #cbcbcb;
+    background-color: #000;
+    border: none;
+    font-weight: 300;
 }
