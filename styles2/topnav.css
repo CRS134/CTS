@@ -1,0 +1,35 @@
+.top-nav-wrapper {
+    height: 30px;
+    background-color: #000;
+    /* Flexbox container */
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+
+.top-nav-wrapper > .img-wrapper svg {
+    text-align: right;
+    padding: 1rem;
+    width: 190px;
+    height: 100%;
+}
+
+.explore-wrapper h4 {
+    color: rgb(255, 223, 93);
+    font-family: sans-serif;
+    font-size: 0.8em;
+    margin: 0px 0px 0.5px 7px;
+    padding-left: 17px;
+}
+
+.explore-btn-wrapper {
+    padding: 0px 0px 0px 17px;
+}
+
+.explore-wrapper > .explore-btn-wrapper button{
+    color: white;
+    background-color: #000;
+    font-size: 1.1em;
+    font-weight: 600;
+}
