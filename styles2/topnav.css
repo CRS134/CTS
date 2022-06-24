@@ -53,8 +53,7 @@ body {
     font-weight: 300;
 }
 
-.icon i {
-    font-size: 2em;
-    font-style: normal;
+.information-btn-wrapper > .img-wrapper img {
+    font-size: 0.5em;
     color: white;
 }
