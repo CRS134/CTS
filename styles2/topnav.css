@@ -52,16 +52,26 @@ body {
     font-weight: 300;
 }
 
-.top-nav-wrapper > .information-wrapper select {
+.top-nav-wrapper > .create select {
     color: white;
-    background-color: #4f4a4a;
+    background-color: #484444;
     border: none;
     border-radius: 4px;
     font-weight: 500;
     padding: 10px 8px;
+    margin: 0px 20px 0px 32px;
 }
 
 .information-btn-wrapper > .img-wrapper img {
     font-size: 0.5em;
+    color: white;
+    margin: 0px 21px 0px 0px;
+}
+
+.top-nav-wrapper > .personel-information-btn-wrapper button {
+    padding: 10px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #484444;
     color: white;
 }
