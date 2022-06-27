@@ -4,4 +4,13 @@ body {
 
 .middle-information-wrapper > .left-side {
     color: rgba(245, 245, 245, 0.827);
+    font-family: sans-serif;
+    font-size: 30px;
+    display: grid;
+    float: left;
+}
+
+.middle-information-wrapper > .left-side > .bold {
+    color: white;
+    font-weight: 500;
 }
