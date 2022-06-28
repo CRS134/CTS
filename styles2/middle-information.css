@@ -4,6 +4,7 @@ body {
 
 .middle-information-wrapper .left-side {
     padding: 20px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
 }
 
 .middle-information-wrapper > .left-side p {
@@ -11,22 +12,15 @@ body {
     font-family: sans-serif;
     font-size: 25px;
     margin: 0px 0px 0px 0px;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-gap: 3px;
 }
 
-.middle-information-wrapper > .left-side > .bold p {
+.middle-information-wrapper > .left-side > .bold h1 {
     color: white;
-    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+    font-family: sans-serif;
 }
 
 .middle-information-wrapper > .left-side img { 
     height: 30px;
     width: 100%px;
-}
-
-.middle-information-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
 }
