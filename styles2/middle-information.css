@@ -2,6 +2,11 @@ body {
     background-color: #433c3c;
 }
 
+.middle-information-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 .middle-information-wrapper .left-side {
     padding: 20px 0px 0px 20px;
     margin: 0px 0px 0px 0px;
@@ -23,6 +28,21 @@ body {
 .middle-information-wrapper > .left-side img { 
     height: 30px;
     width: 100%px;
+}
+
+.right p {
+    color: white;
+    margin: 50px 0px 0px 305px;
+}
+
+.right label {
+    color: rgb(26, 179, 217);
+}
+
+.middle-information-wrapper > .right img {
+    height: 100%;
+    width: 60%;
+    margin: 0px 0px 0px 270px;
 }
 
 .middle-information-wrapper > .extra-btns label {
